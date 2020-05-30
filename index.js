@@ -25,11 +25,11 @@ const questions = [
         name: "title"
     },
     
-    // Table of Contents
-    {
+      // Description
+      {
         type: "input",
-        message: "What is within the table of contents?",
-        name: "contents"
+        message: "What is a brief description of the project?",
+        name: "description"
     },
 
     // Installation
@@ -44,16 +44,11 @@ const questions = [
         message: "Write instructions for people to use this application.",
         name: "usage"
     },
-    // License
-    {
-        type: "input",
-        message: "Do you have an licenses associated with this project?",
-        name: "license"
-    },
+    
     // Contributing
     {
         type: "input",
-        message: "How would someone contribute to this project?",
+        message: "How would someone else contribute to your project?",
         name: "contributers"
     },
 
@@ -66,7 +61,7 @@ const questions = [
     // Questions
     {
         type: "input",
-        message: "What are some of the FAQ or Frequently asked questions?",
+        message: "What are some of the FAQ or Frequently asked questions about your project?",
         name: "questions"
     }
 ];
@@ -81,7 +76,7 @@ function init() {
             var imageURL = response.data.avatar_url
             answers.image = imageURL; 
             console.log(imageURL)
-            fs.writeFile("README.md", generateMarkdown(answers), function (err){
+            fs.writeFile("README2.md", generateMarkdown(answers), function (err){
                 if  (err) {
                     throw err;
                 }
