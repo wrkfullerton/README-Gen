@@ -1,31 +1,35 @@
 function generateMarkdown(data) {
   return `
-# ${data.title}
-## ${data.desc}
+# ${data.repo}
+${data.title}
 
 ## Table of Contents
-  * [Installation](#installation)
+  * [Description](#description)
+  * [Installation](#install)
   * [Usage](#usage)
   * [Contributing](#contributing)
   * [Test](#test)
   * [Questions](#questions)
   * [License](#license)
-  * [Badges](#badges)
- 
+  
+  ## Description
+  ${data.description}
+
   ## Installation
   ${data.install}
  
   ## Usage
-  # ${data.usage}
+  ${data.usage}
   
   ## Contributing
-  # ${data.contribution}
+  ${data.contributing}
   
   ## Tests
-  # ${data.test}
+  ${data.test}
 
   ## Questions
-  If you have any questions, comments, or concers - contact ${data.username} on Github.
+  ${data.questions}
+  If you have any questions, comments, or concerns - contact ${data.username} on Github.
   
   ## License
   MIT License
@@ -46,9 +50,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Badges
-
-![badmath](https://img.shields.io/github/repo-size/${data.username}/${data.repo})
 `;
 }
 
