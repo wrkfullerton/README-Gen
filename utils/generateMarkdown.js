@@ -1,6 +1,5 @@
 function generateMarkdown(data) {
   return `
-# ${data.repo}
 ${data.title}
 
 ## Table of Contents
@@ -28,7 +27,6 @@ ${data.title}
   ${data.test}
 
   ## Questions
-  ${data.questions}
   If you have any questions, comments, or concerns - contact ${data.username} on Github.
   
   ## License

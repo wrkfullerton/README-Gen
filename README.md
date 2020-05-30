@@ -1,30 +1,28 @@
-
-# README Generator
-## undefined
+README Generator
 
 ## Table of Contents
-  * [Installation](#installation)
+  * [Description](#description)
+  * [Installation](#install)
   * [Usage](#usage)
   * [Contributing](#contributing)
   * [Test](#test)
   * [Questions](#questions)
   * [License](#license)
-  * [Badges](#badges)
- 
+  
+  ## Description
+  This application runs from the command line, by initiating 'node index.js'. Which then asks you for your input on questions regarding, github username, name of repository, title of project, brief description, installation dependecies, usage (how-to's), how to contribute, how-to-test, and FAQs. Once completed, the application will generate a good README.md from a template and creat the file from your user input.
+
   ## Installation
-  -----
+  You can clone the repo to your machine and it should work after typing node index.js into the command line. 
  
   ## Usage
-  # Enter user input and README will be generated
-  
-  ## Contributing
-  # undefined
-  
+  In the command line - type "node index.js" and then answer the questions. A README.md will be generated from your users.
+    
   ## Tests
-  # -----
+  Follow the instructions.
 
   ## Questions
-  If you have any questions, comments, or concers - contact wrkfullerton on Github.
+  If you have any questions, comments, or concerns - contact wrkfullerton on Github.
   
   ## License
   MIT License
@@ -45,6 +43,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Badges
-
-![badmath](https://img.shields.io/github/repo-size/wrkfullerton/undefined)

@@ -15,7 +15,7 @@ const questions = [
     {
         type: "input",
         message: "What is the name of the Repository?",
-        name: "Repo"
+        name: "repo"
     },
     
     // Title
@@ -49,7 +49,7 @@ const questions = [
     {
         type: "input",
         message: "How would someone else contribute to your project?",
-        name: "contributers"
+        name: "contributing"
     },
 
     // Tests
@@ -57,12 +57,6 @@ const questions = [
         type: "input",
         message: "How would someone test your application?",
         name: "test"
-    },
-    // Questions
-    {
-        type: "input",
-        message: "What are some of the FAQ or Frequently asked questions about your project?",
-        name: "questions"
     }
 ];
 
